@@ -14,19 +14,16 @@ Installation
 To run the keylogger on your local machine, follow the steps below:
 
 1. Clone the repository
-bash
-Copy code
+
 git clone https://github.com/your-username/keylogger.git
 cd keylogger
 2. Install required Python libraries
 You’ll need the pynput library to capture keystrokes. Install it using pip:
 
-bash
-Copy code
+
 pip install pynput
 3. Run the Keylogger
-bash
-Copy code
+
 python keylogger.py
 The keylogger will start capturing keystrokes in the background and save them in a log file.
 
